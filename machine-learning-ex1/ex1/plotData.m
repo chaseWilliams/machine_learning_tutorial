@@ -14,11 +14,12 @@ function plotData(x, y)
 %       appear as red crosses. Furthermore, you can make the
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
 disp('plotting data now');
+figure;
 
-
-plot(x, y, 'rx', 'MarkerSize', 10);
-
-
+plot(x, y, 'rx', 'MarkerSize', 4);
+ylabel('Profit in $10,000s');
+xlabel('Population of City in 10,000s');
+title('Profit Gained from City Expansion');
 % ============================================================
 
 end
