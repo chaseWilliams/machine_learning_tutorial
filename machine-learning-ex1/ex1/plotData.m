@@ -17,9 +17,7 @@ disp('plotting data now');
 figure;
 
 plot(x, y, 'rx', 'MarkerSize', 4);
-ylabel('Profit in $10,000s');
-xlabel('Population of City in 10,000s');
-title('Profit Gained from City Expansion');
+
 % ============================================================
 
 end
